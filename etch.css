@@ -1,0 +1,25 @@
+body{
+    background-image: url(./background.jpg);
+    background-size: auto;
+    background-repeat: repeat;
+} 
+main{
+    width:60vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border:2px solid black;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    height:600px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.85);
+    margin-top: 40px;
+}
+
+
